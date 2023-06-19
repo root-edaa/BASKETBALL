@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.basket {
+    animation: hop-up 0.5s infinite linear ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+img {
+    width: 15rem;
+}
+
+@keyframes hop-up {
+    0%{
+        transform: translateY(-100px);
+    }
+    50%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(-100px);
+    }
+}
